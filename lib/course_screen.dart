@@ -9,10 +9,6 @@ class CourseScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final txtThem=Theme.of(context).textTheme;
     const txtStyle=TextStyle(color: Colors.black54,fontSize: 14);
-    const List courseSubTitle=['3 Goals Today',
-      'three by four',
-      '2019-10-3',
-    ];
     List courseTitle=[
       'Positive Rotation',
       'Fun Practice',
@@ -20,16 +16,16 @@ class CourseScreen extends StatelessWidget {
 
     ];
     List<Icon>courseIconsData=[
-      Icon(CupertinoIcons.add,color: Colors.white,),
-      Icon(Icons.widgets,color: Colors.white,),
-      Icon(Icons.book,color: Colors.white,),
+      const Icon(CupertinoIcons.add,color: Colors.white,),
+      const Icon(Icons.widgets,color: Colors.white,),
+      const Icon(Icons.book,color: Colors.white,),
 
 
     ];
     List<Color> bgColors=[
-      Color(0xFFFDD133),
-      Color(0xFF64DA91),
-      Color(0xFF60C0FC),
+      const Color(0xFFFDD133),
+      const Color(0xFF64DA91),
+      const Color(0xFF60C0FC),
     ];
     return SafeArea(
       child: Scaffold(
